@@ -58,6 +58,5 @@ everything is in kpc, 10^10 solar masses, and km/s. gravitational constant G = 4
 - adaptive timestepping
 - GPU tree construction (currently CPU-bound at high N)
 
-## acknowledgements
-
-built during a late night session fueled by curiosity and access to a colab A100.
+## note
+Still experimenting with proper initial conditions to get something like M51, also restructuring the particle storage to use a morton curve sorted layout and building the octree directly on the GPU would make the whole pipeline GPU-bound and bring a significant speedup.
