@@ -2,8 +2,6 @@
 
 ![merger snapshot](docs/frame_0052.png)
 
-https://github.com/MehulBandhu/galaxy-merger/raw/main/docs/collision.mp4
-
 GPU-accelerated N-body galaxy merger simulation. Barnes-Hut tree gravity with leapfrog integration, running on CUDA. Currently gravity-only with collisionless components -- hydrodynamics and star formation are next. Work in progress.
 
 Two disk galaxies on a parabolic encounter orbit, each with a dark matter halo (Hernquist profile), stellar disk (exponential + sech^2), stellar bulge, gas disk, and a central black hole. Initial conditions are generated with proper equilibrium velocities from the Jeans equations so each galaxy is independently stable before the interaction begins.
